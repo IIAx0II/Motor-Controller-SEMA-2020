@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 45)
+    (drawings 46)
     (tracks 1918)
     (zones 0)
     (modules 129)
@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.889)
+    (last_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.3048)
     (user_trace_width 0.4064)
@@ -354,7 +354,7 @@
     (descr "Mounting Hole 4mm, no annular")
     (tags "mounting hole 4mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 0 -5) (layer F.SilkS)
+    (fp_text reference " " (at 0 -5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_4mm (at 0 5) (layer F.Fab)
@@ -373,7 +373,7 @@
     (descr "Mounting Hole 4mm, no annular")
     (tags "mounting hole 4mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 0 -5) (layer F.SilkS)
+    (fp_text reference " " (at 0 -5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_4mm (at 0 5) (layer F.Fab)
@@ -392,7 +392,7 @@
     (descr "Mounting Hole 4mm, no annular")
     (tags "mounting hole 4mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 0 -5) (layer F.SilkS)
+    (fp_text reference " " (at 0 -5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_4mm (at 0 5) (layer F.Fab)
@@ -4456,6 +4456,9 @@
     )
   )
 
+  (gr_text "SEM 2020\nGirton Grammar School " (at 93.98 88.9) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
   (gr_text +12V (at 20.32 64.77 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
